@@ -1,0 +1,79 @@
+# Code Book
+This code book summarize the resulting fields in tidyData.txt
+
+# Identifiers
+	- Subject   : Identifier from 1 to 30 than identifies the subject of the text. 
+	- Activities: Indicate which activity was doing the test subject:
+		- WALKING
+		- WALKING_UPSTAIRS
+		- WALKING_DOWNSTAIRS
+		- SITTING
+		- STANDING
+		- LAYING
+# Measurements
+	- timebodyaccelerometer-mean()-x: time body accelerometer mean of the means in X direction. This mean is done by each subject and activity
+	- timebodyaccelerometer-mean()-y: time body accelerometer mean of the means in Y direction. This mean is done by each subject and activity
+	- timebodyaccelerometer-mean()-z: time body accelerometer mean of the means in Z direction. This mean is done by each subject and activity:
+	- timebodyaccelerometer-std()-x: time body accelerometer mean of the std in X direction. This mean is done by each subject and activity
+	- timebodyaccelerometer-std()-y: time body accelerometer mean of the std in Y direction. This mean is done by each subject and activity
+	- timebodyaccelerometer-std()-z: time body accelerometer mean of the std in Z direction. This mean is done by each subject and activity
+	- timegravityaccelerometer-mean()-x: Same for gravity Accelrometer in X
+	- timegravityaccelerometer-mean()-y:..
+	- timegravityaccelerometer-mean()-z:..
+	- timegravityaccelerometer-std()-x:..
+	- timegravityaccelerometer-std()-y:..
+	- timegravityaccelerometer-std()-z:..
+	- timebodyaccelerometerjerk-mean()-x: For jerk accelerometer
+	- timebodyaccelerometerjerk-mean()-y:...
+	- timebodyaccelerometerjerk-mean()-z:...
+	- timebodyaccelerometerjerk-std()-x:...
+	- timebodyaccelerometerjerk-std()-y:..
+	- timebodyaccelerometerjerk-std()-z:...
+	- timebodygyroscope-mean()-x: For the Gyroscope measurements
+	- timebodygyroscope-mean()-y:
+	- timebodygyroscope-mean()-z:
+	- timebodygyroscope-std()-x:
+	- timebodygyroscope-std()-y:
+	- timebodygyroscope-std()-z:
+	- timebodygyroscopejerk-mean()-x:  For the Jerk Gyroscope measurements
+	- timebodygyroscopejerk-mean()-y:
+	- timebodygyroscopejerk-mean()-z:
+	- timebodygyroscopejerk-std()-x:
+	- timebodygyroscopejerk-std()-y:
+	- timebodygyroscopejerk-std()-z:
+	- timebodyaccelerometermagnitude-mean():
+	- timebodyaccelerometermagnitude-std():
+	- timegravityaccelerometermagnitude-mean():
+	- timegravityaccelerometermagnitude-std():
+	- timebodyaccelerometerjerkmagnitude-mean():
+	- timebodyaccelerometerjerkmagnitude-std():
+	- timebodygyroscopemagnitude-mean():
+	- timebodygyroscopemagnitude-std():
+	- timebodygyroscopejerkmagnitude-mean():
+	- timebodygyroscopejerkmagnitude-std():
+	- frequencybodyaccelerometer-mean()-x:
+	- frequencybodyaccelerometer-mean()-y:
+	- frequencybodyaccelerometer-mean()-z:
+	- frequencybodyaccelerometer-std()-x:
+	- frequencybodyaccelerometer-std()-y:
+	- frequencybodyaccelerometer-std()-z:
+	- frequencybodyaccelerometerjerk-mean()-x:
+	- frequencybodyaccelerometerjerk-mean()-y:
+	- frequencybodyaccelerometerjerk-mean()-z:
+	- frequencybodyaccelerometerjerk-std()-x:
+	- frequencybodyaccelerometerjerk-std()-y:
+	- frequencybodyaccelerometerjerk-std()-z:
+	- frequencybodygyroscope-mean()-x:
+	- frequencybodygyroscope-mean()-y:
+	- frequencybodygyroscope-mean()-z:
+	- frequencybodygyroscope-std()-x:
+	- frequencybodygyroscope-std()-y:
+	- frequencybodygyroscope-std()-z:
+	- frequencybodyaccelerometermagnitude-mean():
+	- frequencybodyaccelerometermagnitude-std():
+	- frequencybodyaccelerometerjerkmagnitude-mean():
+	- frequencybodyaccelerometerjerkmagnitude-std():
+	- frequencybodygyroscopemagnitude-mean():
+	- frequencybodygyroscopemagnitude-std():
+	- frequencybodygyroscopejerkmagnitude-mean():
+	- frequencybodygyroscopejerkmagnitude-std():

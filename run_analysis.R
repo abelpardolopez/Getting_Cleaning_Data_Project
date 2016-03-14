@@ -60,7 +60,7 @@ names(DataMean)<-gsub("^t","time",names(DataMean))
 names(DataMean)<-gsub("^f","frequency",names(DataMean))
 names(DataMean)<-gsub("Acc","Accelerometer",names(DataMean))
 names(DataMean)<-gsub("Gyro","Gyroscope",names(DataMean))
-names(DataMean)<-gsub("Body","BodyBody",names(DataMean))
+names(DataMean)<-gsub("BodyBody","Body",names(DataMean))
 names(DataMean)<-gsub("Mag","Magnitude",names(DataMean))
 
 # Write Data Mean

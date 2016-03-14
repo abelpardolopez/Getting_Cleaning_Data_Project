@@ -64,4 +64,4 @@ names(DataMean)<-gsub("BodyBody","Body",names(DataMean))
 names(DataMean)<-gsub("Mag","Magnitude",names(DataMean))
 
 # Write Data Mean
-write.table(DataMean,"tidyData.txt")
+write.table(DataMean,"tidyData.txt",row.name=FALSE)
